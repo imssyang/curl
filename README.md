@@ -1,0 +1,2 @@
+# curl
+/opt/curl
