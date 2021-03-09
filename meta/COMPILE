@@ -1,0 +1,5 @@
+
+./configure --prefix=/opt/curl --enable-threaded-resolver --with-ssl=/opt/openssl
+
+
+
