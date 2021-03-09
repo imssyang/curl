@@ -1,5 +1,9 @@
 
-./configure --prefix=/opt/curl --enable-threaded-resolver --with-ssl=/opt/openssl
+./configure --prefix=/opt/curl \
+    --enable-threaded-resolver \
+    --with-ssl=/opt/openssl \
+    --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt \
+    --with-ca-path=/opt/openssl/ssl/certs:/etc/ssl/certs
 
 
 
